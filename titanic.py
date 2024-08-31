@@ -1,7 +1,7 @@
 #loading data using pandas
 import pandas as pd
 
-titanic=pd.read_csv("C:\\Users\\Soumili\\OneDrive\\Desktop\\Titanic.csv")
+titanic=pd.read_csv("Titanic.csv")
 
 # to view  first 5 rows of the dataset
 titanic.head()
@@ -30,7 +30,7 @@ sns.violinplot(x="Sex",y="Age",hue="Survived",data=titanic,split=True)
 import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt
-df=pd.read_csv("C:\\Users\\Soumili\\OneDrive\\Desktop\\Titanic.csv")
+df=pd.read_csv("Titanic.csv")
 display(df)
 
 #sorting the names 
